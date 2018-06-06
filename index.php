@@ -137,38 +137,6 @@ if (isset($_GET['status'])) {
     var flw_ref = "", chargeResponse = "", trxref = "FDKHGK"+ Math.random();
 
 
-    //function payWithRave() {
-
-
-
-    //     var x = getpaidSetup({
-    //         PBFPubKey: API_publicKey,
-    //         customer_email: "user@example.com",
-    //         amount: amount,
-    //         customer_phone: "234099940409",
-    //         currency: "NGN",
-    //         payment_method: "both",
-    //         txref: trxref,
-    //         meta: [{
-    //             metaname: "flightID",
-    //             metavalue: "AP1234"
-    //         }],
-    //         onclose: function() {},
-    //         callback: function(response) {
-    //             var txref = response.tx.txRef; // collect flwRef returned and pass to a server page to complete status check.
-    //             console.log("This is the response returned after a charge", response);
-    //             if (chargeResponse === "00" || chargeResponse === "0") {
-    //                 window.location = "http://localhost/flutter/verifyPayment.php?txref="+txref; //Add your success page here
-    //             } else {
-    //                 // window.location = "https://your_URL/paymentverification.php?txref="+txref;  //Add your failure page here
-    //                 console.log(chargeResponse + "......")
-    //             }
-    //
-    //             x.close(); // use this to close the modal immediately after payment.
-    //         }
-    //     });
-    // }
-
     document.addEventListener("DOMContentLoaded", function(event) {
         document.getElementById('submit').addEventListener('click', function () {
 
