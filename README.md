@@ -1,2 +1,2 @@
 # Rave-PHP-integration
-An application to show to use rave payment system in PHP
+An application to show how to use rave payment system in PHP
